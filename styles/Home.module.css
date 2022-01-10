@@ -1,5 +1,11 @@
+.main h1 {
+  font-family: 'Edo', arial;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
 .container {
-  padding: 0 2rem;
+  padding: 0 0;
 }
 
 .main {
@@ -10,6 +16,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: rgb(255,191,105);
+  background: linear-gradient(229deg, rgba(255,191,105,1) 0%, rgba(226,113,29,1) 100%);
 }
 
 .footer {
