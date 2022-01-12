@@ -12,7 +12,19 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1>JAGUARACAMBE</h1>
+
+
+        <div className={styles.navbar}>
+          <img className={styles.logo} src="/logo.jpeg" alt="jaguaracambe logo"/>
+        
+          <nav>
+            <a href="">JAGUARACAMBÉ</a>
+            <a href="">PROJETOS</a>
+            <a href="">ESPÉCIES</a>
+            <a href="">APOIE</a>
+          </nav>
+        </div>
+        
       </main>
 
       <footer className={styles.footer}>
