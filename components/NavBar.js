@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../styles/Home.module.css'
+import { motion } from "framer-motion" 
 
 const NavBar = () => {
   return (
