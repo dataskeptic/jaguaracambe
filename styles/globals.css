@@ -35,9 +35,21 @@ a {
   padding: 6px 20px;
   border-radius: 20px;
   box-shadow: 8px 11px 25px 3px rgba(226,113,29,0.75);
--webkit-box-shadow: 8px 11px 25px 3px rgba(226,113,29,0.75);
--moz-box-shadow: 8px 11px 25px 3px rgba(226,113,29,0.75);
+  -webkit-box-shadow: 8px 11px 25px 3px rgba(226,113,29,0.75);
+  -moz-box-shadow: 8px 11px 25px 3px rgba(226,113,29,0.75);
 }
+
+ul a {
+  background-color: transparent;
+  border-radius: 0;
+  font-family: 'Shippori Mincho B1', serif;
+  color: rgba(58, 25, 0, 0.75);
+
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+
 
 * {
   box-sizing: border-box;

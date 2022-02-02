@@ -34,9 +34,6 @@
   margin-top: 1vh
 } 
 
-.sublink {
-  border: 1px solid rgb(0, 0, 0);
-}
 
 .links {
   display: flex;
@@ -47,15 +44,21 @@
 }
 
 .sublinks {
-  opacity: 0;
+ /*  opacity: 0; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   height: 180px;
-  padding: 15px;
+  padding: 25px 20px;
   width: 100%;
-  border: 1px solid rgb(30, 255, 0);
+  background-color: rgba(255,191,105,1);
+  padding: 6px 20px;
+  border-radius: 20px;
+  box-shadow: 8px 11px 25px 3px rgba(226,113,29,0.75);
+  -webkit-box-shadow: 8px 11px 25px 3px rgba(226,113,29,0.75);
+  -moz-box-shadow: 8px 11px 25px 3px rgba(226,113,29,0.75);
+
 }
 
 .homePage_content {
