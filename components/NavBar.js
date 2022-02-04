@@ -9,8 +9,26 @@ const NavBar = () => {
   const [especies, setEspecies] = useState(false);
   const [apoie, setApoie] = useState(false);
 
+  const containerVariants = {
+    hidden: {
+      opacity: 0,
+      x: '100vw',
+    },
+    visible: {
+      opacity: 1,
+      x: 0,
+      transition: {
+        type: 'spring', 
+        delay: 0.5,
+      }
+    }
+  }
   return (
-    <div className={styles.navbar}>
+    <motion.div className={styles.navbar}
+      variants={containerVariants}
+      initial="hidden"
+      animate="visible"
+    >
           <img className={styles.logo} src="/logo.jpeg" alt="jaguaracambe logo"/>
           <nav>
             <div className={styles.links}>
@@ -59,7 +77,7 @@ const NavBar = () => {
                 </ul>}
             </div>
           </nav>
-        </div>
+        </motion.div>
   )
 }
 
